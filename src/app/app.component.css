@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+
+.centrato {
+  text-align: center;
+  background-color: azure;
+}
+
+.img-fluid {
+  height: 150px;
+  width: 300px;
+}

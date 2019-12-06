@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<h1 class="centrato">Visualizzatore Immagini</h1>
+			<hr>
+			<br>
+			<br>
+			<div class="container">
+				<div class="row justify-content-center ">
+					<button type="button" class="btn btn-outline-info col-1" (click)='slideshowindietro()'><</button>
+					<div class="col-6 col">
+						<img [src]="immagini[count]" class="img-fluid" alt="Responsive Image">
+            </div>
+						<button type="button" class="btn btn-outline-info col-1" (click)='slideshowavanti()'>></button>
+					</div>
+				</div>
+				<br>
+				<br>
+				<button type="button" class="btn btn-outline-secondary btn-block" (click)='autoStopClick()'>{{mode}}</button>
+			</div>
+		</div>
+	</div>
